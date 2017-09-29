@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 
-class UiTesterMaterialUi extends Component {
+class TestMaterialUI extends Component {
     render() {
         return (
             <MuiThemeProvider>
                 <div>
                     <p/>
-                    <div>  UiTester Material-ui Component </div>
+                    <div><b><u>Test material-ui component</u></b></div>
+                    <br/>
                     <div>
                         <RaisedButton label="A material-ui Raised Button" />
                     </div>
@@ -18,4 +19,4 @@ class UiTesterMaterialUi extends Component {
     }
 }
 
-export default UiTesterMaterialUi;
+export default TestMaterialUI;

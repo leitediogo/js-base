@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import UiTesterMaterialUi from './components/UiTesterMaterialUi'
-import UITesterAntd from './components/UiTesterAntd'
-import APIFetchTester from './components/APIFetchTester'
+
+import TestMaterialUI from './components/TestMaterialUI'
+import TestAntd from './components/TestAntd'
+import TestFetchAPI from './components/TestFetchAPI'
+import TestUtils from './components/TestUtils'
 class App extends Component {
   render() {
     return (
@@ -13,9 +15,10 @@ class App extends Component {
         <p className="App-intro">
           App Intro
         </p>
-        <UiTesterMaterialUi/>
-        <UITesterAntd/>
-        <APIFetchTester/>
+        <TestMaterialUI />
+        <TestAntd />
+        <TestFetchAPI />
+        <TestUtils />
       </div>
     );
   }
